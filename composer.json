@@ -1,0 +1,27 @@
+{
+  "name": "alextanver/action-route-bundle",
+  "type": "symfony-bundle",
+  "description": "Action Route Bundle",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1",
+    "symfony/dotenv": "*",
+    "symfony/flex": "*",
+    "symfony/framework-bundle": "*",
+    "symfony/yaml": "*",
+    "symfony/console": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlexTanVer\\ActionRouteBundle\\": "src"
+    }
+  },
+  "conflict": {
+    "symfony/symfony": "*"
+  },
+  "config": {
+    "allow-plugins": {
+      "symfony/flex": true
+    }
+  }
+}
